@@ -19,13 +19,13 @@ public class Web_For_Villa {
 	@FindBy(id = "BE_hotel_destination_city")
 	private WebElement destination;
 
-	@FindBy(xpath = "//li[text()='J']")
+	@FindBy(xpath = "//li[@class='active ac_over']")
 	private WebElement city;
 
 	@FindBy(id = "BE_hotel_checkin_date")
 	private WebElement checkin;
 
-	@FindBy(id = "01/03/2021")
+	@FindBy(id = "05/03/2021")
 	private WebElement checkindate;
 
 	@FindBy(id = "BE_hotel_checkout_date")
@@ -34,7 +34,7 @@ public class Web_For_Villa {
 	@FindBy(id = "06/03/2021")
 	private WebElement checkoutdate;
 
-	@FindBy(xpath = "//li[contains(text(),'J')]")
+	@FindBy(xpath = "//input[@type='submit']")
 	private WebElement submit;
 
 	/**

@@ -27,7 +27,7 @@ public class Utilities {
 	
 
 	/**
-	 * handel mouse action
+	 * Handle mouse hovering 
 	 * @param driver
 	 * @param ele
 	 */
