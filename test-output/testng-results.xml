@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-02T03:50:06Z" name="Default suite" finished-at="2021-03-02T03:50:46Z" duration-ms="39508">
+  <suite started-at="2021-03-02T10:23:36Z" name="Suite" finished-at="2021-03-02T10:25:23Z" duration-ms="106671">
     <groups>
     </groups>
-    <test started-at="2021-03-02T03:50:06Z" name="Default test" finished-at="2021-03-02T03:50:46Z" duration-ms="39508">
+    <test started-at="2021-03-02T10:23:36Z" name="Test" finished-at="2021-03-02T10:25:23Z" duration-ms="106671">
       <class name="com.sr.TestScript.Villa_Booking">
-        <test-method is-config="true" signature="openapp()[pri:0, instance:com.sr.TestScript.Villa_Booking@10d68fcd]" started-at="2021-03-02T03:50:06Z" name="openapp" finished-at="2021-03-02T03:50:25Z" duration-ms="19244" status="PASS">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:com.sr.TestScript.Villa_Booking@2474f125]" started-at="2021-03-02T10:23:36Z" name="openapp" finished-at="2021-03-02T10:23:54Z" duration-ms="17691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method signature="villabooking()[pri:0, instance:com.sr.TestScript.Villa_Booking@10d68fcd]" started-at="2021-03-02T03:50:25Z" name="villabooking" finished-at="2021-03-02T03:50:43Z" duration-ms="17866" status="PASS">
+        <test-method signature="villabooking()[pri:0, instance:com.sr.TestScript.Villa_Booking@2474f125]" started-at="2021-03-02T10:23:54Z" name="villabooking" finished-at="2021-03-02T10:24:09Z" duration-ms="15219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- villabooking -->
-        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:com.sr.TestScript.Villa_Booking@10d68fcd]" started-at="2021-03-02T03:50:43Z" name="closeapp" finished-at="2021-03-02T03:50:46Z" duration-ms="2307" status="PASS">
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:com.sr.TestScript.Villa_Booking@2474f125]" started-at="2021-03-02T10:24:09Z" name="closeapp" finished-at="2021-03-02T10:24:11Z" duration-ms="2395" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=villabooking status=SUCCESS method=Villa_Booking.villabooking()[pri:0, instance:com.sr.TestScript.Villa_Booking@10d68fcd] output={null}]]]>
+                <![CDATA[[TestResult name=villabooking status=SUCCESS method=Villa_Booking.villabooking()[pri:0, instance:com.sr.TestScript.Villa_Booking@2474f125] output={null}]]]>
               </value>
             </param>
           </params>
@@ -27,6 +27,46 @@
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- com.sr.TestScript.Villa_Booking -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.sr.TestScript.Buses_Booking">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:com.sr.TestScript.Buses_Booking@7357a011]" started-at="2021-03-02T10:24:11Z" name="openapp" finished-at="2021-03-02T10:24:28Z" duration-ms="17213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="busbooking()[pri:0, instance:com.sr.TestScript.Buses_Booking@7357a011]" started-at="2021-03-02T10:24:28Z" name="busbooking" finished-at="2021-03-02T10:24:42Z" duration-ms="13653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busbooking -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:com.sr.TestScript.Buses_Booking@7357a011]" started-at="2021-03-02T10:24:42Z" name="closeapp" finished-at="2021-03-02T10:24:46Z" duration-ms="4204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busbooking status=SUCCESS method=Buses_Booking.busbooking()[pri:0, instance:com.sr.TestScript.Buses_Booking@7357a011] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method is-config="true" signature="openapp()[pri:0, instance:com.sr.TestScript.Buses_Booking@7357a011]" started-at="2021-03-02T10:24:46Z" name="openapp" finished-at="2021-03-02T10:25:03Z" duration-ms="16806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="busbooking()[pri:0, instance:com.sr.TestScript.Buses_Booking@7357a011]" started-at="2021-03-02T10:25:03Z" name="busbooking" finished-at="2021-03-02T10:25:19Z" duration-ms="16250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- busbooking -->
+        <test-method is-config="true" signature="closeapp(org.testng.ITestResult)[pri:0, instance:com.sr.TestScript.Buses_Booking@7357a011]" started-at="2021-03-02T10:25:19Z" name="closeapp" finished-at="2021-03-02T10:25:23Z" duration-ms="3126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=busbooking status=SUCCESS method=Buses_Booking.busbooking()[pri:0, instance:com.sr.TestScript.Buses_Booking@7357a011] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.sr.TestScript.Buses_Booking -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
