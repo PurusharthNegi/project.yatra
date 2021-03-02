@@ -3,8 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.sr.TestScript.Trip_Test_1"/>
-      <class name="com.sr.TestScript.Hotel_Bokking"/>
       <class name="com.sr.TestScript.Villa_Booking"/>
     </classes>
   </test> <!-- Test -->
